@@ -227,6 +227,7 @@ The first step of installing Ubuntu is to create a live USB or disk. If you are 
 
 +++
 
+{:start="3"}
 3. Creating the bootable USB
     Plugin the USB drive in the computer and run Universal USB Installer. You need to do the following things now:
 

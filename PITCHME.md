@@ -201,3 +201,150 @@ Based On                    | Ubuntu
 +++
 
 These are some distros from top of my head there are many out there just explore and find the one that fits your need.
+
+---
+
+### I am going to make a guide for Ubuntu Linux a sit is the most popular Linux distros out there and it is beginner friendly and has great community which is helping and quite amazing.
+
+---
+
+## How to Install Ubuntu Linux ?
+
+Ubuntu is one of the most popular forms of the Linux operating system. It is available for free, and will run on almost any computer. This guide will show you how to install Ubuntu by booting from a live USB drive or within Windows itself.
+
++++
+
+##### Step 1: Create a bootable USB stick on Ubuntu
+
+The first step of installing Ubuntu is to create a live USB or disk. If you are using Windows 7, 8.1 or 10, you can use Universal USB Installer to create a live USB, just follow these steps.
+
++++
+
+1. Download Ubuntu ISO
+    Go to [Ubuntu Download Page](https://www.ubuntu.com/download/desktop) and download the ISO image of your preferred Ubuntu version
+2. Download Universal USB Installer
+    Once you have downloaded the ISO of Ubuntu, go to [this page](https://www.pendrivelinux.com/universal-usb-installer-easy-as-1-2-3/) and download the latest version of Universal USB Installer.
+3. Creating the bootable USB
+    Plugin the USB drive in the computer and run Universal USB Installer. You need to do the following things now:
+
+    * Select Ubuntu under step 1
+    * Browse to the location of downloaded Ubuntu ISO in Step 2 section
+    * In Step 3, select the USB drive and also check the option to format it.
+
++++
+
+![Universal USB Installer](./img/Create_Live_USB_Ubuntu_0.png)
+
++++
+
+It will present you with obvious warnings, click Yes.
+
+![Universal USB Installer](./img/Create_Live_USB_Ubuntu_1.png)
+
++++
+
+Wait for sometime for the process to complete. You can push it to background, if you like.
+
+![Universal USB Installer](./img/Create_Live_USB_Ubuntu_2.png)
+
++++
+
+That said, live USB should be created in few minutes.
+
+![Universal USB Installer](./img/Create_Live_USB_Ubuntu_3.png)
+
++++
+
+Once the live USB is created, you can proceed with installation of Ubuntu.
+
++++
+
+##### Step 2: Boot from USB drive?
+
+Most newer computers can boot from USB. You should see a welcome screen prompting you to choose your language and giving you the option to install Ubuntu or try it from the USB.
+
+If your computer doesn’t automatically do so, you might need to press the F12 key to bring up the boot menu, but be careful not to hold it down - that can cause an error message.
+
++++
+
+![Ubuntu Boot Screen](./img/download-desktop-install-ubuntu-desktop_1.jpg)
+
++++
+
+##### Step 3: Prepare to install Ubuntu
+
+* It is recommend you plug your computer into a power source
+* You should also make sure you have enough space on your computer to install Ubuntu
+* We advise you to select Download updates while installing and Install this third-party software now
+* You should also stay connected to the internet so you can get the latest updates while you install Ubuntu
+* If you are not connected to the internet, you will be asked to select a wireless network, if available, connect during the installation so we can ensure your machine is up to date
+
++++
+
+![Ubuntu Prepare Screen](./img/download-desktop-install-ubuntu-desktop_2.jpg)
+
++++
+
+##### Step 4: Allocate drive space
+
+Use the checkboxes to choose whether you’d like to Install Ubuntu alongside another operating system, delete your existing operating system and replace it with Ubuntu, or — if you’re an advanced user — choose the ’Something else’ option
+
++++
+
+![Ubuntu Space Allocation Screen](./img/download-desktop-install-ubuntu-desktop_3.jpg)
+
++++
+
+##### Step 5: Begin the installation
+
+Depending on your previous selections, you can now verify that you have chosen the way in which you would like to install Ubuntu. The installation process will begin when you click the Install Now button.
+
++++
+
+![Ubuntu installation Screen](./img/download-desktop-install-ubuntu-desktop_4.jpg)
+
++++
+
+##### Step 6: Select your location
+
+If you are connected to the internet, this should be done automatically. Check your location is correct and click ’Forward’ to proceed. If you’re unsure of your time zone, type the name of the town you’re in or click on the map and we’ll help you find it.
+
++++
+
+![Ubuntu location Screen](./img/download-desktop-install-ubuntu-desktop_5.jpg)
+
++++
+
+##### Step 7: Select your preferred keyboard layout
+
+Click on the language option you need. If you’re not sure, click the ’Detect Keyboard Layout’ button for help.
+
++++
+
+![Ubuntu Keyboard selection Screen](./img/download-desktop-install-ubuntu-desktop_6.jpg)
+
++++
+
+##### Step 7: Enter your login and password details
+
+![Ubuntu user Screen](./img/download-desktop-install-ubuntu-desktop_7.jpg)
+
++++
+
+##### Step 8: Learn more about Ubuntu while the system installs…
+
+…or make a cup of tea and much on some snacks!
+
++++
+
+![Ubuntu progress Screen](./img/download-desktop-install-ubuntu-desktop_8.jpg)
+
++++
+
+##### Step 8: That’s it.
+
+All that’s left is to restart your computer and start enjoying Ubuntu!
+
+![Ubuntu restart Screen](./img/download-desktop-install-ubuntu-desktop_9.jpg)
+
+---

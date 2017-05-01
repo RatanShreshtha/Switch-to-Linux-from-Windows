@@ -328,13 +328,13 @@ Click on the language option you need. If you’re not sure, click the ’Detect
 
 +++
 
-##### Step 7: Enter your login and password details
+##### Step 8: Enter your login and password details
 
 ![Ubuntu user Screen](./img/download-desktop-install-ubuntu-desktop_7.jpg)
 
 +++
 
-##### Step 8: Learn more about Ubuntu while the system installs…
+##### Step 9: Learn more about Ubuntu while the system installs…
 
 …or make a cup of tea and munch on some snacks!
 
@@ -344,7 +344,7 @@ Click on the language option you need. If you’re not sure, click the ’Detect
 
 +++
 
-##### Step 8: That’s it.
+##### Step 10: That’s it.
 
 All that’s left is to restart your computer and start enjoying Ubuntu!
 
@@ -392,6 +392,8 @@ Install some softwares to improve productivity, and again this is my personal ch
 
     I use atom as text editor and I love it, you can download .deb from its [website](https://atom.io/).
 
++++
+
 * Dropbox
 
     Download Dropbox Linux client from its official [website](https://www.dropbox.com).
@@ -411,16 +413,17 @@ Install some softwares to improve productivity, and again this is my personal ch
 +++
 
 * Skype
-    Skype is an instant messaging app that provides online text message and video chat services.
 
-    And pretty necessary thing to have, thus download it from their official [website](https://www.skype.com/en/).
+    Skype is an instant messaging app that provides online text message and video chat services. And pretty necessary thing to have, thus download it from their official [website](https://www.skype.com/en/).
 
 * VLC
+
     Install VLC to play videos on ubuntu, use following command.
 
     ```
     $ sudo apt-get install vlc
     ```
+
 +++
 
 ##### 4. Improve battery life and reduce overheating with TLP
@@ -442,4 +445,4 @@ $ sudo tlp start
 
 ---
 
-I hope this is helpful.
+### I hope this is helpful.

@@ -374,9 +374,7 @@ $ sudo apt update && sudo apt upgrade
 
 ##### 2. Install Ubuntu Restricted Extra for media codecs and Flash support
 
-“Ubuntu restricted extras” is the package of several codecs that are not included by default in Ubuntu system. This is due to legal restraints in several countries.
-
-Don’t worry it’s safe to install these codecs. After installing these codecs, you can play different media formats such as MP3, MP4, AVI and several other formats without any trouble. Install it using the following command:
+“Ubuntu restricted extras” is the package of several codecs that are not included by default in Ubuntu system. After installing these codecs, you can play different media formats such as MP3, MP4, AVI and several other formats without any trouble. Install it using the following command:
 
 ```
 $ sudo apt-get install ubuntu-restricted-extras

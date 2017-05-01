@@ -224,6 +224,9 @@ The first step of installing Ubuntu is to create a live USB or disk. If you are 
     Go to [Ubuntu Download Page](https://www.ubuntu.com/download/desktop) and download the ISO image of your preferred Ubuntu version
 2. Download Universal USB Installer
     Once you have downloaded the ISO of Ubuntu, go to [this page](https://www.pendrivelinux.com/universal-usb-installer-easy-as-1-2-3/) and download the latest version of Universal USB Installer.
+
++++
+
 3. Creating the bootable USB
     Plugin the USB drive in the computer and run Universal USB Installer. You need to do the following things now:
 
@@ -333,7 +336,7 @@ Click on the language option you need. If you’re not sure, click the ’Detect
 
 ##### Step 8: Learn more about Ubuntu while the system installs…
 
-…or make a cup of tea and much on some snacks!
+…or make a cup of tea and munch on some snacks!
 
 +++
 
@@ -348,3 +351,95 @@ All that’s left is to restart your computer and start enjoying Ubuntu!
 ![Ubuntu restart Screen](./img/download-desktop-install-ubuntu-desktop_9.jpg)
 
 ---
+
+## Things To Do After Installing Ubuntu
+
+A list of essential things to do after installing Ubuntu to get a better experience with it.
+
+Though this list of things to do after installing Ubuntu 16.04 could be different for different users, some of the basic things remain common to everyone.
+
++++
+
+##### 1. Update the system
+
+First and foremost thing you need to do is to update the system. While it may sound weird because you just installed the OS but trust me on this, you must look for updates.
+
+To update the software fire up the terminal and type following commands
+
+```
+$ sudo apt update && sudo apt upgrade
+```
+
++++
+
+##### 2. Install Ubuntu Restricted Extra for media codecs and Flash support
+
+“Ubuntu restricted extras” is the package of several codecs that are not included by default in Ubuntu system. This is due to legal restraints in several countries.
+
+Don’t worry it’s safe to install these codecs. After installing these codecs, you can play different media formats such as MP3, MP4, AVI and several other formats without any trouble. Install it using the following command:
+
+```
+$ sudo apt-get install ubuntu-restricted-extras
+```
+
++++
+
+##### 3. Install Some third-party softwares and Indicators
+
+Install some softwares to improve productivity, and again this is my personal choice your need may differ from mine.
+
+* Atom
+
+    I use atom as text editor and I love it, you can download .deb from its [website](https://atom.io/).
+
+* Dropbox
+
+    Download Dropbox Linux client from its official [website](https://www.dropbox.com).
+
++++
+
+* Gimp
+
+    GIMP is a free and open-source raster graphics editor[6] used for image retouching and editing, free-form drawing, converting between different image formats, and more specialized tasks.
+
+    Install it using following command:
+
+    ```
+    $ sudo apt-get install gimp
+    ```
+
++++
+
+* Skype
+    Skype is an instant messaging app that provides online text message and video chat services.
+
+    And pretty necessary thing to have, thus download it from their official [website](https://www.skype.com/en/).
+
+* VLC
+    Install VLC to play videos on ubuntu, use following command.
+
+    ```
+    $ sudo apt-get install vlc
+    ```
++++
+
+##### 4. Improve battery life and reduce overheating with TLP
+
+TLP has become an essential part of each Ubuntu installation for me. This little daemon optimizes the power management in the system and provides you with a longer battery life and reduced overheating.
+
++++
+
+TLP is now available in the main Ubuntu repository. You can install it using the command
+
+```
+$ sudo apt install tlp tlp-rdw
+```
+Now use the command below to start TLP.
+
+```
+$ sudo tlp start
+```
+
+---
+
+I hope this is helpful.

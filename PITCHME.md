@@ -220,15 +220,20 @@ The first step of installing Ubuntu is to create a live USB or disk. If you are 
 
 +++
 
-1. Download Ubuntu ISO
+###### 1. Download Ubuntu ISO
+
     Go to [Ubuntu Download Page](https://www.ubuntu.com/download/desktop) and download the ISO image of your preferred Ubuntu version
-2. Download Universal USB Installer
+
++++
+
+###### 2. Download Universal USB Installer
+
     Once you have downloaded the ISO of Ubuntu, go to [this page](https://www.pendrivelinux.com/universal-usb-installer-easy-as-1-2-3/) and download the latest version of Universal USB Installer.
 
 +++
 
-{:start="3"}
-3. Creating the bootable USB
+###### 3. Creating the bootable USB
+
     Plugin the USB drive in the computer and run Universal USB Installer. You need to do the following things now:
 
     * Select Ubuntu under step 1

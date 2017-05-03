@@ -106,7 +106,7 @@ Linux support is always a second tier priority, if any, for hardware providers. 
 
 ---
 
-#### “Linux is simple and beautiful, but it takes a effort to understand it’s simplicity and beauty.”
+#### “Linux is simple and beautiful, but it takes an effort to understand it’s simplicity and beauty.”
 
 So now it is your choice, what you want for your machine's operating system Windows, Linux or maybe something else completely.
 
@@ -118,7 +118,7 @@ For those of brave souls who are considering switching to Linux, here is my guid
 
 There are hundreds of Linux distributions, for people new to Linux however it is possibly tricky to know which Linux distro is best for them.
 
-[Distrowatch.com](Distrowatch.com) gives a short description of each one as well as a table showing how easy they are to install, who they are for, level of expertise required and the desktop environment that they use.
+[Distrowatch.com](http://distrowatch.com/) gives a short description of each one as well as a table showing how easy they are to install, who they are for, level of expertise required and the desktop environment that they use.
 
 +++
 
@@ -177,7 +177,7 @@ Distro                   	| Fedora
 Level Of Expertise Required	| Low / Medium
 Desktop Environment         | GNOME, KDE (+ others)
 Purpose                     | To experiments with new concepts
-Download Link               | Lightweight yet elegant desktop operating system
+Download Link               | https://getfedora.org/en/workstation/download/
 Based On                    | Red Hat
 
 +++
@@ -446,6 +446,131 @@ Now use the command below to start TLP.
 ```
 $ sudo tlp start
 ```
+
++++
+
+##### 5. Install Development Tools
+
+Development tools are required to install on your system if you have planned to build software’s. It’s also useful for building packages on your system. Development tools contains few general useful tools like GCC, g++, make, libc6-dev and dpkg-dev packages.
+
++++
+
+Use the following set of commands to install development tools package on your Debian based systems.
+
+```
+$ sudo apt-get update
+$ sudo apt-get install build-essential
+```
+
++++
+
+##### 6. Installing the Oracle JDK
+
+If you want to install the Oracle JDK, which is the official version distributed by Oracle, you will need to follow a few more steps. If you need Java 6 or 7, which are not available in the default Ubuntu 16.04 repositories (not recommended), this installation method is also available.
+
+First, add Oracle's PPA, then update your package repository.
+
+```
+$ sudo add-apt-repository ppa:webupd8team/java
+$ sudo apt-get update
+```
+
++++
+
+*Oracle JDK 8*
+
+This is the latest stable version of Java at time of writing, and the recommended version to install. You can do so using the following command:
+
+```
+$ sudo apt-get install oracle-java8-installer
+```
+
++++
+
+*Setting the JAVA_HOME Environment Variable*
+
+Many programs, such as Java servers, use the JAVA_HOME environment variable to determine the Java installation location. To set this environment variable, we will first need to find out where Java is installed. You can do this by executing the same command as in the previous section:
+
+```
+$ sudo update-alternatives --config java
+```
+
++++
+
+Copy the path from your preferred installation and then open /etc/environment using nano or your favorite text editor.
+
+```
+$ sudo nano /etc/environment
+```
+
+At the end of this file, add the following line, making sure to replace the highlighted path with your own copied path.
+
+```
+JAVA_HOME="/usr/lib/jvm/java-8-oracle"
+```
+
++++
+
+##### 7. Install Node.js
+
+For Node.js v7:
+
+```
+$ curl -sL https://deb.nodesource.com/setup_7.x | sudo -E bash -
+$ sudo apt-get install -y nodejs
+```
+
++++
+
+##### 8. Install Other Drivers
+
+To get the best performance from your Ubuntu PC you will want to use the latest proprietary graphics drivers available for your hardware.
+
+To do this:
+
+1. Open up the ‘Software & Updates’ tool from the Unity Dash
+2. Click the ‘Additional Drivers’ tab
+3. Follow any on-screen prompts to check for, install and apply any changes
+
++++
+
+##### 9. Install JMeter
+
+JMeter is a pure Java application and should run correctly on any system that has a compatible Java implementation.
+
+To install use following command:-
+
+```
+$ sudo apt-get install jmeter
+```
+
++++
+
+##### 10. Install wireshark
+
+Wireshark is the world’s foremost and widely-used network protocol analyzer.
+
+```
+$ sudo add-apt-repository ppa:wireshark-dev/stable
+$ sudo apt-get update
+$ sudo apt-get install wireshark
+```
+
++++
+
+##### 11. Install appium
+
+Steps to Setup Appium on Ubuntu can be found on
+[http://testingalert.com/steps-to-setup-appium-on-ubuntu/](http://testingalert.com/steps-to-setup-appium-on-ubuntu/)
+
+---
+
+## Further Reading (If you want !! :P)
+
+- [Bash Guide](https://github.com/RatanShreshtha/bash-guide)
+- [Ubuntu Handbook](http://ubuntuhandbook.org/)
+- [It's FOSS](https://itsfoss.com/)
+- [OMG! Ubuntu!](http://www.omgubuntu.co.uk/)
 
 ---
 

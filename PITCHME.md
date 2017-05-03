@@ -62,7 +62,7 @@ Have you ever wanted to change the icons or the way the folders look in Windows?
 
 +++
 
-#### And most importantly every nerd and geek (also Hacker) out there uses Linux.
+#### And most importantly every nerd and geek (Hackers) out there uses Linux.
 
 ---
 
@@ -477,7 +477,7 @@ $ sudo apt-get update
 
 +++
 
-*Oracle JDK 8*
+**Oracle JDK 8**
 
 This is the latest stable version of Java at time of writing, and the recommended version to install. You can do so using the following command:
 
@@ -487,7 +487,7 @@ $ sudo apt-get install oracle-java8-installer
 
 +++
 
-*Setting the JAVA_HOME Environment Variable*
+**Setting the JAVA_HOME Environment Variable**
 
 Many programs, such as Java servers, use the JAVA_HOME environment variable to determine the Java installation location. To set this environment variable, we will first need to find out where Java is installed. You can do this by executing the same command as in the previous section:
 
